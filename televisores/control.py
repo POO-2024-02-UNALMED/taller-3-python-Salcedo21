@@ -14,7 +14,7 @@ class Control:
       self._tv.turnOn()
   
   def turnOff(self):
-   if self._tv.estado :
+   if self._tv._estado :
     self._tv.turnOff()
   
   def canalUp(self):
