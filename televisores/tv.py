@@ -60,7 +60,10 @@ class TV:
     self._estado = False
 
   def getEstado(self):
-    return self._estado
+    if self._estado == True:
+      return True
+    else:
+      return False
   
   def canalUp(self):
     if self._canal < 120 and self._estado:
