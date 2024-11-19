@@ -20,13 +20,13 @@ class TV:
     self._marca = marca
 
   @classmethod
-  def getnumTV():
+  def getNumTV():
     return TV.numTV
   
   @classmethod
-  def setnumTV(cls, numTV):
+  def setNumTV(cls, numTV):
     cls.numTV = numTV
-    
+  
   def getCanal(self):
     return self._canal
   
