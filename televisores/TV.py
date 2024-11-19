@@ -1,3 +1,4 @@
+import Control
 class TV:
   numTV = 0
 
