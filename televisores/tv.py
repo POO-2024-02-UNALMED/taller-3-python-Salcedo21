@@ -4,7 +4,7 @@ class TV:
   numTV = 0
 
 
-  def __init__(self, marca,control, canal=1, precio=500, estado= False, volumen=1):
+  def __init__(self, marca,control= None, canal=1, precio=500, estado= False, volumen=1):
     self._marca = marca
     self._canal = canal
     self._precio = precio
