@@ -1,4 +1,4 @@
-import TV
+from TV import TV
 class control:
   def __init__(self, tv):
     self._tv = tv
