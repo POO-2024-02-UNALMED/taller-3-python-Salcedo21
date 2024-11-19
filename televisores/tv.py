@@ -1,7 +1,7 @@
 from .control import Control
 from .marca import Marca
 class TV:
-  numTV = 0
+  _numTV = 0
 
 
   def __init__(self, marca,control= None, canal=1, precio=500, estado= False, volumen=1):
@@ -21,11 +21,11 @@ class TV:
 
   @classmethod
   def getNumTV():
-    return TV.numTV
+    return TV._numTV
   
   @classmethod
   def setNumTV(cls, numTV):
-    cls.numTV = numTV
+    cls._numTV = numTV
   
   def getCanal(self):
     return self._canal
